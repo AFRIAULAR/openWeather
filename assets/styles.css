@@ -3,3 +3,30 @@
     background-size: cover;
     background-repeat: no-repeat;
   }
+
+@media (min-width: 1280px) {
+  #weatherContainer {
+    max-width: 800px;
+  }
+  #weatherInfo {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  #weatherContainer {
+    max-width: 600px;
+  }
+  #weatherInfo {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  #weatherContainer {
+    max-width: 90%;
+  }
+   #weatherInfo {
+    font-size: 1rem;
+  }
+}
